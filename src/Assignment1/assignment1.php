@@ -22,7 +22,7 @@ function dec2bin($dec)
   while ($dec > 0) {
     $rem = $dec % 2;
     $binNum = $rem . $binNum;
-    $dec = (int)($dec / 2);
+    $dec = (int) ($dec / 2);
   }
   return $binNum !== '' ? $binNum : '0';
 }
